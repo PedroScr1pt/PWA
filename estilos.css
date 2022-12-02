@@ -1,0 +1,73 @@
+body {
+  font: 100% Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffcc;
+}
+#divCargando {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+}
+#sidebar1 h3 {
+  cursor: pointer;
+}
+.twoColElsLtHdr #container {
+  width: 46em;
+  background: #ffffff;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  text-align: left;
+}
+.twoColElsLtHdr #header {
+  background: #dddddd;
+  padding: 0 10px;
+}
+.twoColElsLtHdr #header h1 {
+  margin: 0;
+  padding: 10px 0;
+}
+.twoColElsLtHdr #sidebar1 {
+  float: left;
+  width: 12em;
+  background: #ebebeb;
+  padding: 15px 0;
+}
+.twoColElsLtHdr #sidebar1 h3,
+.twoColElsLtHdr #sidebar1 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.twoColElsLtHdr #mainContent {
+  margin: 0 1.5em 0 13em;
+}
+.twoColElsLtHdr #footer {
+  padding: 0 10px;
+  background: #dddddd;
+}
+.twoColElsLtHdr #footer p {
+  margin: 0;
+  padding: 10px 0;
+}
+.fltrt {
+  float: right;
+  margin-left: 8px;
+}
+.fltlft {
+  float: left;
+  margin-right: 8px;
+}
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
